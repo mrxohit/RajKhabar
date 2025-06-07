@@ -9,7 +9,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
         isOpen ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="flex exam p-1    items-center justify-between">
+      <div className="flex w-[80vw] exam p-1    items-center justify-between">
         <input
           type="text"
           placeholder="Search..."
