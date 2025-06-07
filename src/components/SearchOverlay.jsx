@@ -5,7 +5,7 @@ import { Home, Search, Cross, XIcon } from "lucide-react";
 const SearchOverlay = ({ isOpen, onClose }) => {
   return (
     <div
-      className={`fixed flex  justify-center items-center w-screen top-0  left-0 right-0 bg-white z-50 p-4  shadow-md transition-transform duration-300 ${
+      className={`fixed flex  justify-center items-center w-[100vw] top-0  left-0 right-0 bg-white z-50 p-4  shadow-md transition-transform duration-300 ${
         isOpen ? "translate-y-0" : "-translate-y-full"
       }`}
     >
