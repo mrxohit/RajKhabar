@@ -13,7 +13,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
         <input
           type="text"
           placeholder="Search..."
-          className="flex-1 border border-none  px-4 py-2 rounded-md outline-none"
+          className="flex border border-none w-[70vw]  px-4 py-2 rounded-md outline-none"
         /> 
         <Search className="w-5 h-5 text-gray-500 ml-2" />
         
