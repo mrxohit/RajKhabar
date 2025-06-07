@@ -5,11 +5,11 @@ import { Home, Search, Cross, XIcon } from "lucide-react";
 const SearchOverlay = ({ isOpen, onClose }) => {
   return (
     <div
-      className={`fixed top-0 left-0 right-0 bg-white z-50 p-4 w-[90vw] shadow-md transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 bg-white z-50 p-4  shadow-md transition-transform duration-300 ${
         isOpen ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="flex exam p-1 items-center justify-between">
+      <div className="flex exam p-1 w-[90vw] items-center justify-between">
         <input
           type="text"
           placeholder="Search..."
