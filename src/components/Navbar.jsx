@@ -25,19 +25,18 @@ import img from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="relative  exam bg-[#ffff] top-0 overflow-hidden h-12 flex items-center justify-between px-4 py-3 border-b shadow-sm bg-white">
+    <div className="relative exam bg-[#ffff] top-0 min-w-full overflow-hidden h-12 flex items-center justify-between px-4 py-3 border-b shadow-sm bg-white">
       <Link to="/">
         <img className="w-20 " src={img} alt="" />
       </Link>
 
       <div className="flex items-center space-x-4">
-        <Bell className="w-5 h-5 text-red-500" />
+        <Bell className="w-5 cursor-pointer h-5 text-red-500" />
         <Link to="/profile">
           <div className="w-8 h-8 rounded-full  flex items-center justify-center">
-            <UserCircle2 className="w-6 h-6 text-gray-600" />
+            <UserCircle2 className="w-6 h-6 cursor-pointer text-gray-600" />
           </div>
         </Link>
-      
       </div>
     </div>
   );

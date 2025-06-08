@@ -12,7 +12,7 @@ export default function NewsCard({ title, time, category, image }) {
     <div
       // onClick={() => navigate(`/news/${news.id}`)}
       onClick={handleClick}
-      className="flex exam items-start space-x-3 p-3 bg-white rounded-xl shadow-sm border cursor-pointer hover:shadow-lg "
+      className="flex exam cursor-pointer items-start space-x-3 p-3 bg-white rounded-xl shadow-sm border cursor-pointer hover:shadow-lg "
     >
       <img
         src={image}

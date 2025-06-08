@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .exam {
   box-shadow: 1px 1px 5px #00000060, inset -1px -1px 5px #00000025;
+}
+
+body{
+  width: screen;
 }

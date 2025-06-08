@@ -14,6 +14,7 @@ const MainLayout = () => {
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
       />
+      
       <Navbar />
       <Outlet />
 

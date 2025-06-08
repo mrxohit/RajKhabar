@@ -9,7 +9,7 @@ const CategoryTabs = ({ activeTab, setActiveTab }) => {
   };
 
   return (
-    <div className="flex  overflow-x-auto space-x-6 px-4 py-2 border-b bg-white">
+    <div className="flex  relative  min-w-full overflow-x-auto space-x-6 px-4 py-2 border-b bg-white">
       {categories.map((cat) => (
         <button
           key={cat}
