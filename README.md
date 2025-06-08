@@ -1,12 +1,58 @@
-# React + Vite
+# 📰 RajKhabar – Hindi News Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**RajKhabar** is a responsive and dynamic Hindi-language news website built using **React.js**, **Tailwind CSS**, and **Vite**.  
+From UI design to component planning and logo generation — everything was done with the help of **AI (ChatGPT + AI Image Tools)**.
 
-Currently, two official plugins are available:
+🚀 **Live Preview:** [RajKhabar Website](https://mrxohit.github.io/RajKhabar/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📱 Mobile-First Responsive Design
+- 🧭 Navigation with React Router
+- 📚 Category Tabs for news filtering (Taza Khabar, Sarkari Naukri, Yojna, Others)
+- 🎨 Logo & UI design assisted by AI
+- 🔍 Toggleable Search Bar & Sidebar
+- ⚡ Fast Performance with Vite
+- 🌐 Deployed on GitHub Pages
+
+---
+
+## 🧠 Built with AI
+
+> This project uses **ChatGPT** for:
+- Component structure & UI suggestions
+- Logo design ideas (generated via AI tools)
+- Bug solving and feature enhancements
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React.js
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Build Tool:** Vite
+- **Deployment:** GitHub Pages
+- **AI Help:** ChatGPT (OpenAI) & Image AI Tools
+
+---
+
+## 📷 Screenshots
+
+> Add your own screenshots below:
+
+- `screenshots/home.png`
+- `screenshots/sidebar.png`
+- `screenshots/search.png`
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+git clone https://github.com/mrxohit/RajKhabar.git
+cd RajKhabar
+npm install
+npm run dev
